@@ -8,6 +8,8 @@ export default function Header() {
   const fetchCategories = useAppStore((state) => state.fetchCategories);
   const categories = useAppStore((state) => state.categories);
   const searchRecipes = useAppStore((state) => state.searchRecipes);
+  const showNotification = useAppStore((state) => state.showNotification);
+
 const [searchFilters, setSearchFilters] = useState({
   ingredient: "",
   category: "",
@@ -27,7 +29,10 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
 
   e.preventDefault()
   if(Object.values(searchFilters).includes('')){
-    console.log('Debe seleccionar un filtro')
+    showNotification({
+      text:'Todos los campos son obligatorios',
+      error:true
+    })
     return
 }
 searchRecipes(searchFilters)
