@@ -1,3 +1,44 @@
+# Bebidas React
+
+Este proyecto es una aplicación web desarrollada con React y TypeScript que permite gestionar y mostrar información sobre bebidas. La aplicación está construida utilizando Vite como bundler y herramienta de desarrollo.
+
+## Características
+
+- Interfaz moderna y responsiva
+- Gestión de bebidas con sus detalles
+- Desarrollado con React + TypeScript
+- Hot Module Replacement (HMR) para desarrollo eficiente
+
+## Tecnologías Utilizadas
+
+- React
+- TypeScript
+- Vite
+- ESLint para linting
+- SWC para compilación rápida
+
+## Instalación
+
+1. Clona el repositorio
+2. Instala las dependencias:
+```bash
+npm install
+```
+3. Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+## Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo
+- `npm run build`: Construye la aplicación para producción
+- `npm run preview`: Previsualiza la build de producción localmente
+
+## Estructura del Proyecto
+
+El proyecto utiliza una estructura moderna y organizada, con TypeScript para type-safety y mejor experiencia de desarrollo.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
