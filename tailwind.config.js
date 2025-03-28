@@ -11,10 +11,10 @@ export default {
       }
     },
     colors: {
-      primary: '#201E43',
-      secondary: '#134B70',
-      third:'#508C9B',
-      fourth: '#EEEEEE',
+      cream: '#F2EFE7',
+      lightBlue: '#9ACBD0',
+      teal: '#48A6A7',
+      darkTeal: '#006A71',
     },
   },
   plugins: [],
